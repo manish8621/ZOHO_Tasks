@@ -1,0 +1,125 @@
+
+Enter 0 to manually initialize player details
+Enter 1 to automatically initialize details
+input >1 
+
+only two teams found in db,So adding two teams...
+[OK]Team init successful
+
+--TOSS--
+Choose a team to continue toss
+
+0.CSK
+1.KKR
+input>0
+
+Team CSK Choose head or tail
+0.Head
+1.Tail
+input>
+0
+
+[TOSS] Tail
+[TOSS] KKR won the toss
+
+TEAM KKR Choose Bat or bowl
+0.Bat
+1.Bowl
+input>
+0
+match no :1
+
+BATTING - KKR
+BOWLING - CSK
+[Shreyas BATSMAN 0 run(s), Ramesh_Kumar BATSMAN 0 run(s), Aman_Hakim_Khan BATSMAN 0 run(s), Abhijeet_Tomar BATSMAN 0 run(s), Venkatesh_Iyer ALLROUNDER 0 run(s), Andre_Russell ALLROUNDER 0 run(s), Sunil_Narine ALLROUNDER 0 run(s), Sunil SPINNER 0 run(s), Harshit_Rana BOWLER 0 run(s), Ashok_Sharma BOWLER 0 run(s), Shivam_Mavi BOWLER 0 run(s), Umesh_Yadav BOWLER 0 run(s)]
+[Deepak_Chahar BOWLER 0 run(s), Dwayne_Bravo BOWLER 0 run(s), KM_Asif BOWLER 0 run(s), Chris_Jordan BOWLER 0 run(s), Prashant_Solanki SPINNER 0 run(s), MS_Dhoni BATSMAN 0 run(s), N_Jagadeessan BATSMAN 0 run(s), C_Hari_Nishaanth BATSMAN 0 run(s), Ravindra_Jadeja BATSMAN 0 run(s), Moeen_Ali BATSMAN 0 run(s), Shivam_Dube BATSMAN 0 run(s)]
+selecting players ...
+
+now..
+Batsman:Shreyas
+NonStrike: Ramesh_Kumar
+Bowler:Deepak_Chahar
+batsman state:scored
+score : 5
+batsman(Shreyas) nonstrike(Ramesh_Kumar) positions Changed
+batsman state:scored
+score : 2
+batsman state:scored
+score : 3
+batsman(Ramesh_Kumar) nonstrike(Shreyas) positions Changed
+batsman state:out
+batsman state:out
+batsman state:scored
+score : 4
+[INFO] Bowler(Deepak_Chahar) changed
+[INFO] New Bowler(Dwayne_Bravo)
+batsman state:scored
+score : 3
+batsman(Abhijeet_Tomar) nonstrike(Ramesh_Kumar) positions Changed
+batsman state:out
+batsman state:scored
+score : 5
+batsman(Venkatesh_Iyer) nonstrike(Abhijeet_Tomar) positions Changed
+batsman state:out
+batsman state:scored
+score : 1
+batsman(Andre_Russell) nonstrike(Venkatesh_Iyer) positions Changed
+batsman state:scored
+score : 0
+[INFO] Bowler(Dwayne_Bravo) changed
+[INFO] New Bowler(KM_Asif)
+batting bowlling change
+match no :2
+
+BATTING - CSK
+BOWLING - KKR
+[MS_Dhoni BATSMAN 0 run(s), N_Jagadeessan BATSMAN 0 run(s), C_Hari_Nishaanth BATSMAN 0 run(s), Ravindra_Jadeja BATSMAN 0 run(s), Moeen_Ali BATSMAN 0 run(s), Shivam_Dube BATSMAN 0 run(s), Prashant_Solanki SPINNER 0 run(s), Deepak_Chahar BOWLER 0 run(s), Dwayne_Bravo BOWLER 0 run(s), KM_Asif BOWLER 0 run(s), Chris_Jordan BOWLER 0 run(s)]
+[Harshit_Rana BOWLER 0 run(s), Ashok_Sharma BOWLER 0 run(s), Shivam_Mavi BOWLER 0 run(s), Umesh_Yadav BOWLER 0 run(s), Sunil SPINNER 0 run(s), Venkatesh_Iyer ALLROUNDER 5 run(s), Andre_Russell ALLROUNDER 1 run(s), Sunil_Narine ALLROUNDER 0 run(s), Shreyas BATSMAN 5 run(s), Ramesh_Kumar BATSMAN 5 run(s), Aman_Hakim_Khan BATSMAN 0 run(s), Abhijeet_Tomar BATSMAN 7 run(s)]
+selecting players ...
+
+now..
+Batsman:Ravindra_Jadeja
+NonStrike: Moeen_Ali
+Bowler:Andre_Russell
+batsman state:scored
+score : 0
+batsman state:out
+batsman state:out
+batsman state:scored
+score : 1
+batsman(Prashant_Solanki) nonstrike(Moeen_Ali) positions Changed
+batsman state:out
+batsman state:out
+[INFO] Bowler(Andre_Russell) changed
+[INFO] New Bowler(Sunil_Narine)
+batsman state:scored
+score : 4
+batsman state:scored
+score : 0
+batsman state:out
+batsman state:scored
+score : 4
+batsman state:scored
+score : 1
+batsman(KM_Asif) nonstrike(Prashant_Solanki) positions Changed
+batsman state:scored
+score : 4
+[INFO] Bowler(Sunil_Narine) changed
+[INFO] New Bowler(Shreyas)
+batting bowlling change
+[WIN]:KKR
+
+Team :KKR 23 run(s)
+Players list
+-----------Harshit_Rana BOWLER 0 run(s)
+-----------Ashok_Sharma BOWLER 0 run(s)
+-----------Shivam_Mavi BOWLER 0 run(s)
+-----------Umesh_Yadav BOWLER 0 run(s)
+-----------Sunil SPINNER 0 run(s)
+-----------Venkatesh_Iyer ALLROUNDER 5 run(s)
+-----------Andre_Russell ALLROUNDER 1 run(s)
+-----------Sunil_Narine ALLROUNDER 0 run(s)
+-----------Shreyas BATSMAN 5 run(s)
+-----------Ramesh_Kumar BATSMAN 5 run(s)
+-----------Aman_Hakim_Khan BATSMAN 0 run(s)
+-----------Abhijeet_Tomar BATSMAN 7 run(s
