@@ -1,0 +1,11 @@
+Virat_Kohli BATSMAN
+Karn_Sharma BATSMAN
+Dinesh_Karthik BATSMAN
+Aneeshwar_Gautam ALLROUNDER
+Shahbaz_Ahmed ALLROUNDER
+Glenn_Maxwell ALLROUNDER
+Chama_Milind BOWLER
+David_Willey BOWLER
+Harshal_Patel BOWLER
+Wanindu_Hasaranga BOWLER
+Mohammad_Siraj BOWLER

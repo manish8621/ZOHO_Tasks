@@ -1,0 +1,11 @@
+MS_Dhoni BATSMAN CAP
+N_Jagadeessan BATSMAN
+C_Hari_Nishaanth BATSMAN
+Ravindra_Jadeja ALL_ROUNDER
+Moeen_Ali ALL_ROUNDER
+Shivam_Dube ALL_ROUNDER
+Deepak_Chahar BOWLER
+Dwayne_Bravo BOWLER
+Prashant_Solanki SPINNER
+KM_Asif BOWLER
+Chris_Jordan BOWLER

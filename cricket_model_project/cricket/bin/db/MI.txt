@@ -1,0 +1,11 @@
+Rohit_Sharma BATSMAN CAP
+Ishan_Kishan BATSMAN
+Dewald_Brevis BATSMAN
+Ramandeep_Singh BATSMAN
+Kieron_Pollard ALLROUNDER
+Fabian_Allen ALLROUNDER
+Tymal_Mills BOWLER
+Riley_Meredith BOWLER
+Jofra_Archer BOWLER
+Basil_Thampi BOWLER
+Murugan_Ashwin BOWLER
