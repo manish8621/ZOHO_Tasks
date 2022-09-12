@@ -1,23 +1,56 @@
-
 Enter 0 to manually initialize player details
 Enter 1 to automatically initialize details
-input >1 
+input >1
 
-only two teams found in db,So adding two teams...
+Select the input by entering number
+Team1
+0.CSK
+1.KKR
+2.MI
+3.RCB
+input>1
+
+Select the input by entering number
+Team2
+0.CSK
+1.KKR
+2.MI
+3.RCB
+input>2
 [OK]Team init successful
 
+
+Team :KKR 0 run(s) 0wicket(s)
+Players list
+----------------------------------------------------
+|CAPTAIN |OUT |NAME                |SCORE |WICKETS |
+----------------------------------------------------
+|yes     |    |Shreyas_Iyer        |0     |0       |
+|        |    |Ramesh_Kumar        |0     |0       |
+|        |    |Aman_Hakim_Khan     |0     |0       |
+|        |    |Abhijeet_Tomar      |0     |0       |
+|        |    |Venkatesh_Iyer      |0     |0       |
+|        |    |Andre_Russell       |0     |0       |
+|        |    |Sunil_Narine        |0     |0       |
+|        |    |Harshit_Rana        |0     |0       |
+|        |    |Ashok_Sharma        |0     |0       |
+|        |    |Sunil               |0     |0       |
+|        |    |Shivam_Mavi         |0     |0       |
+|        |    |Umesh_Yadav         |0     |0       |
+----------------------------------------------------
+Auto Play(Y/n):y
 --TOSS--
 Choose a team to continue toss
 
-0.CSK
-1.KKR
+0.KKR
+1.MI
 input>0
 
-Team CSK Choose head or tail
+Team KKR Choose head or tail
 0.Head
 1.Tail
 input>
-0
+1
 
 [TOSS] Tail
 [TOSS] KKR won the toss
@@ -26,100 +59,278 @@ TEAM KKR Choose Bat or bowl
 0.Bat
 1.Bowl
 input>
-0
+1
+[INFO]selecting players ...
+
 match no :1
+BATTING - MI
 
-BATTING - KKR
-BOWLING - CSK
-[Shreyas BATSMAN 0 run(s), Ramesh_Kumar BATSMAN 0 run(s), Aman_Hakim_Khan BATSMAN 0 run(s), Abhijeet_Tomar BATSMAN 0 run(s), Venkatesh_Iyer ALLROUNDER 0 run(s), Andre_Russell ALLROUNDER 0 run(s), Sunil_Narine ALLROUNDER 0 run(s), Sunil SPINNER 0 run(s), Harshit_Rana BOWLER 0 run(s), Ashok_Sharma BOWLER 0 run(s), Shivam_Mavi BOWLER 0 run(s), Umesh_Yadav BOWLER 0 run(s)]
-[Deepak_Chahar BOWLER 0 run(s), Dwayne_Bravo BOWLER 0 run(s), KM_Asif BOWLER 0 run(s), Chris_Jordan BOWLER 0 run(s), Prashant_Solanki SPINNER 0 run(s), MS_Dhoni BATSMAN 0 run(s), N_Jagadeessan BATSMAN 0 run(s), C_Hari_Nishaanth BATSMAN 0 run(s), Ravindra_Jadeja BATSMAN 0 run(s), Moeen_Ali BATSMAN 0 run(s), Shivam_Dube BATSMAN 0 run(s)]
-selecting players ...
-
-now..
-Batsman:Shreyas
-NonStrike: Ramesh_Kumar
-Bowler:Deepak_Chahar
-batsman state:scored
-score : 5
-batsman(Shreyas) nonstrike(Ramesh_Kumar) positions Changed
-batsman state:scored
-score : 2
-batsman state:scored
-score : 3
-batsman(Ramesh_Kumar) nonstrike(Shreyas) positions Changed
-batsman state:out
-batsman state:out
-batsman state:scored
-score : 4
-[INFO] Bowler(Deepak_Chahar) changed
-[INFO] New Bowler(Dwayne_Bravo)
-batsman state:scored
-score : 3
-batsman(Abhijeet_Tomar) nonstrike(Ramesh_Kumar) positions Changed
-batsman state:out
-batsman state:scored
-score : 5
-batsman(Venkatesh_Iyer) nonstrike(Abhijeet_Tomar) positions Changed
-batsman state:out
-batsman state:scored
-score : 1
-batsman(Andre_Russell) nonstrike(Venkatesh_Iyer) positions Changed
-batsman state:scored
-score : 0
-[INFO] Bowler(Dwayne_Bravo) changed
-[INFO] New Bowler(KM_Asif)
-batting bowlling change
-match no :2
-
-BATTING - CSK
-BOWLING - KKR
-[MS_Dhoni BATSMAN 0 run(s), N_Jagadeessan BATSMAN 0 run(s), C_Hari_Nishaanth BATSMAN 0 run(s), Ravindra_Jadeja BATSMAN 0 run(s), Moeen_Ali BATSMAN 0 run(s), Shivam_Dube BATSMAN 0 run(s), Prashant_Solanki SPINNER 0 run(s), Deepak_Chahar BOWLER 0 run(s), Dwayne_Bravo BOWLER 0 run(s), KM_Asif BOWLER 0 run(s), Chris_Jordan BOWLER 0 run(s)]
-[Harshit_Rana BOWLER 0 run(s), Ashok_Sharma BOWLER 0 run(s), Shivam_Mavi BOWLER 0 run(s), Umesh_Yadav BOWLER 0 run(s), Sunil SPINNER 0 run(s), Venkatesh_Iyer ALLROUNDER 5 run(s), Andre_Russell ALLROUNDER 1 run(s), Sunil_Narine ALLROUNDER 0 run(s), Shreyas BATSMAN 5 run(s), Ramesh_Kumar BATSMAN 5 run(s), Aman_Hakim_Khan BATSMAN 0 run(s), Abhijeet_Tomar BATSMAN 7 run(s)]
-selecting players ...
-
-now..
-Batsman:Ravindra_Jadeja
-NonStrike: Moeen_Ali
-Bowler:Andre_Russell
-batsman state:scored
-score : 0
-batsman state:out
-batsman state:out
-batsman state:scored
-score : 1
-batsman(Prashant_Solanki) nonstrike(Moeen_Ali) positions Changed
-batsman state:out
-batsman state:out
-[INFO] Bowler(Andre_Russell) changed
-[INFO] New Bowler(Sunil_Narine)
-batsman state:scored
-score : 4
-batsman state:scored
-score : 0
-batsman state:out
-batsman state:scored
-score : 4
-batsman state:scored
-score : 1
-batsman(KM_Asif) nonstrike(Prashant_Solanki) positions Changed
-batsman state:scored
-score : 4
-[INFO] Bowler(Sunil_Narine) changed
-[INFO] New Bowler(Shreyas)
-batting bowlling change
-[WIN]:KKR
-
-Team :KKR 23 run(s)
+Team :MI 0 run(s) 0wicket(s)
 Players list
------------Harshit_Rana BOWLER 0 run(s)
------------Ashok_Sharma BOWLER 0 run(s)
------------Shivam_Mavi BOWLER 0 run(s)
------------Umesh_Yadav BOWLER 0 run(s)
------------Sunil SPINNER 0 run(s)
------------Venkatesh_Iyer ALLROUNDER 5 run(s)
------------Andre_Russell ALLROUNDER 1 run(s)
------------Sunil_Narine ALLROUNDER 0 run(s)
------------Shreyas BATSMAN 5 run(s)
------------Ramesh_Kumar BATSMAN 5 run(s)
------------Aman_Hakim_Khan BATSMAN 0 run(s)
------------Abhijeet_Tomar BATSMAN 7 run(s
+----------------------------------------------------
+|CAPTAIN |OUT |NAME                |SCORE |WICKETS |
+----------------------------------------------------
+|yes     |    |Rohit_Sharma        |0     |0       |
+|        |    |Ishan_Kishan        |0     |0       |
+|        |    |Dewald_Brevis       |0     |0       |
+|        |    |Ramandeep_Singh     |0     |0       |
+|        |    |Kieron_Pollard      |0     |0       |
+|        |    |Fabian_Allen        |0     |0       |
+|        |    |Tymal_Mills         |0     |0       |
+|        |    |Riley_Meredith      |0     |0       |
+|        |    |Jofra_Archer        |0     |0       |
+|        |    |Basil_Thampi        |0     |0       |
+|        |    |Murugan_Ashwin      |0     |0       |
+----------------------------------------------------
+
+BOWLING - KKR
+
+Team :KKR 0 run(s) 0wicket(s)
+Players list
+----------------------------------------------------
+|CAPTAIN |OUT |NAME                |SCORE |WICKETS |
+----------------------------------------------------
+|        |    |Harshit_Rana        |0     |0       |
+|        |    |Ashok_Sharma        |0     |0       |
+|        |    |Shivam_Mavi         |0     |0       |
+|        |    |Umesh_Yadav         |0     |0       |
+|        |    |Sunil               |0     |0       |
+|        |    |Venkatesh_Iyer      |0     |0       |
+|        |    |Andre_Russell       |0     |0       |
+|        |    |Sunil_Narine        |0     |0       |
+|yes     |    |Shreyas_Iyer        |0     |0       |
+|        |    |Ramesh_Kumar        |0     |0       |
+|        |    |Aman_Hakim_Khan     |0     |0       |
+|        |    |Abhijeet_Tomar      |0     |0       |
+----------------------------------------------------
+
+-------------------
+now..
+Batsman:Rohit_Sharma
+NonStrike: Harshit_Rana
+Bowler:Ishan_Kishan
+
+batsman state:WIDE
+score : 4
+[WIDE] so score +1 = 5
+[INFO] Bowler changed
+Batsman:Rohit_Sharma
+NonStrike: Ishan_Kishan
+Bowler:Ashok_Sharma
+
+[INFO] Batsman and Nonstrike positions Changed
+Batsman:Rohit_Sharma
+NonStrike: Ishan_Kishan
+Bowler:Ashok_Sharma
+
+batsman state:BOLD
+[OUT] Ishan_Kishan BOLD(0 runs)
+[INFO] New Batsman
+Batsman:Dewald_Brevis
+NonStrike: Rohit_Sharma
+Bowler:Ashok_Sharma
+
+batsman state:BOLD
+[OUT] Dewald_Brevis BOLD(0 runs)
+[INFO] New Batsman
+Batsman:Ramandeep_Singh
+NonStrike: Rohit_Sharma
+Bowler:Ashok_Sharma
+
+batsman state:WIDE
+score : 3
+[WIDE] so score +1 = 4
+batsman state:CATCH
+[OUT] Ramandeep_Singh CATCH(4 runs)
+[INFO] New Batsman
+Batsman:Kieron_Pollard
+NonStrike: Rohit_Sharma
+Bowler:Ashok_Sharma
+
+batsman state:BOLD
+[OUT] Kieron_Pollard BOLD(0 runs)
+[INFO] New Batsman
+Batsman:Fabian_Allen
+NonStrike: Rohit_Sharma
+Bowler:Ashok_Sharma
+
+batsman state:WIDE
+score : 1
+[WIDE] so score +1 = 2
+batsman state:BOLD
+[OUT] Fabian_Allen BOLD(2 runs)
+[INFO] New Batsman
+Batsman:Tymal_Mills
+NonStrike: Rohit_Sharma
+Bowler:Ashok_Sharma
+
+batsman state:BOLD
+[OUT] Tymal_Mills BOLD(0 runs)
+[INFO] New Batsman
+Batsman:Riley_Meredith
+NonStrike: Rohit_Sharma
+Bowler:Ashok_Sharma
+
+[INFO] Bowler changed
+Batsman:Riley_Meredith
+NonStrike: Rohit_Sharma
+Bowler:Shivam_Mavi
+
+[INFO] Batsman and Nonstrike positions Changed
+Batsman:Riley_Meredith
+NonStrike: Rohit_Sharma
+Bowler:Shivam_Mavi
+
+[NEXT] 2nd innnings : Batting Bowlling Teams change
+[INFO]selecting players ...
+
+match no :2
+BATTING - KKR
+
+Team :KKR 0 run(s) 6wicket(s)
+Players list
+----------------------------------------------------
+|CAPTAIN |OUT |NAME                |SCORE |WICKETS |
+----------------------------------------------------
+|yes     |    |Shreyas_Iyer        |0     |0       |
+|        |    |Ramesh_Kumar        |0     |0       |
+|        |    |Aman_Hakim_Khan     |0     |0       |
+|        |    |Abhijeet_Tomar      |0     |0       |
+|        |    |Venkatesh_Iyer      |0     |0       |
+|        |    |Andre_Russell       |0     |0       |
+|        |    |Sunil_Narine        |0     |0       |
+|        |    |Sunil               |0     |0       |
+|        |    |Harshit_Rana        |0     |0       |
+|        |    |Ashok_Sharma        |0     |6       |
+|        |    |Shivam_Mavi         |0     |0       |
+|        |    |Umesh_Yadav         |0     |0       |
+----------------------------------------------------
+
+BOWLING - MI
+
+Team :MI 11 run(s) 0wicket(s)
+Players list
+----------------------------------------------------
+|CAPTAIN |OUT |NAME                |SCORE |WICKETS |
+----------------------------------------------------
+|        |out |Tymal_Mills         |0     |0       |
+|        |    |Riley_Meredith      |0     |0       |
+|        |    |Jofra_Archer        |0     |0       |
+|        |    |Basil_Thampi        |0     |0       |
+|        |    |Murugan_Ashwin      |0     |0       |
+|        |out |Kieron_Pollard      |0     |0       |
+|        |out |Fabian_Allen        |2     |0       |
+|yes     |    |Rohit_Sharma        |5     |0       |
+|        |out |Ishan_Kishan        |0     |0       |
+|        |out |Dewald_Brevis       |0     |0       |
+|        |out |Ramandeep_Singh     |4     |0       |
+----------------------------------------------------
+
+-------------------
+now..
+Batsman:Ramesh_Kumar
+NonStrike: Riley_Meredith
+Bowler:Aman_Hakim_Khan
+
+batsman state:BOLD
+[OUT] Ramesh_Kumar BOLD(0 runs)
+[INFO] New Batsman
+Batsman:Abhijeet_Tomar
+NonStrike: Aman_Hakim_Khan
+Bowler:Riley_Meredith
+
+batsman state:NOBALL
+score : 4
+[NOBALL] so score +1 = 5
+batsman state:BOLD
+[OUT] Abhijeet_Tomar BOLD(5 runs)
+[INFO] New Batsman
+Batsman:Venkatesh_Iyer
+NonStrike: Aman_Hakim_Khan
+Bowler:Riley_Meredith
+
+batsman state:WIDE
+score : 0
+[WIDE] so score +1 = 1
+batsman state:BOLD
+[OUT] Venkatesh_Iyer BOLD(1 runs)
+[INFO] New Batsman
+Batsman:Andre_Russell
+NonStrike: Aman_Hakim_Khan
+Bowler:Riley_Meredith
+
+batsman state:NOBALL
+score : 4
+[NOBALL] so score +1 = 5
+batsman state:BOLD
+[OUT] Andre_Russell BOLD(5 runs)
+[INFO] New Batsman
+Batsman:Sunil_Narine
+NonStrike: Aman_Hakim_Khan
+Bowler:Riley_Meredith
+
+batsman state:BOLD
+[OUT] Sunil_Narine BOLD(0 runs)
+[INFO] New Batsman
+Batsman:Sunil
+NonStrike: Aman_Hakim_Khan
+Bowler:Riley_Meredith
+
+batsman state:RUN
+score : 4
+[INFO] Bowler changed
+Batsman:Sunil
+NonStrike: Aman_Hakim_Khan
+Bowler:Jofra_Archer
+
+[INFO] Batsman and Nonstrike positions Changed
+Batsman:Sunil
+NonStrike: Aman_Hakim_Khan
+Bowler:Jofra_Archer
+
+[NEXT] 2nd innnings : Batting Bowlling Teams change
+
+***************************
+[WIN]:KKR
+***************************
+
+Team :KKR 15 run(s) 6wicket(s)
+Players list
+----------------------------------------------------
+|CAPTAIN |OUT |NAME                |SCORE |WICKETS |
+----------------------------------------------------
+|yes     |    |Shreyas_Iyer        |0     |0       |
+|        |out |Ramesh_Kumar        |0     |0       |
+|        |    |Aman_Hakim_Khan     |0     |0       |
+|        |out |Abhijeet_Tomar      |5     |0       |
+|        |out |Venkatesh_Iyer      |1     |0       |
+|        |out |Andre_Russell       |5     |0       |
+|        |out |Sunil_Narine        |0     |0       |
+|        |    |Sunil               |4     |0       |
+|        |    |Harshit_Rana        |0     |0       |
+|        |    |Ashok_Sharma        |0     |6       |
+|        |    |Shivam_Mavi         |0     |0       |
+|        |    |Umesh_Yadav         |0     |0       |
+----------------------------------------------------
+
+***************************
+[LOSE]:MI
+***************************
+
+Team :MI 11 run(s) 5wicket(s)
+Players list
+----------------------------------------------------
+|CAPTAIN |OUT |NAME                |SCORE |WICKETS |
+----------------------------------------------------
+|        |out |Tymal_Mills         |0     |0       |
+|        |    |Riley_Meredith      |0     |5       |
+|        |    |Jofra_Archer        |0     |0       |
+|        |    |Basil_Thampi        |0     |0       |
+|        |    |Murugan_Ashwin      |0     |0       |
+|        |out |Kieron_Pollard      |0     |0       |
+|        |out |Fabian_Allen        |2     |0       |
+|yes     |    |Rohit_Sharma        |5     |0       |
+|        |out |Ishan_Kishan        |0     |0       |
+|        |out |Dewald_Brevis       |0     |0       |
+|        |out |Ramandeep_Singh     |4     |0       |
+----------------------------------------------------
