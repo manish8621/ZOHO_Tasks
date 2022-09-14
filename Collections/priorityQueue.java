@@ -1,10 +1,4 @@
 
-/**
- * priorityQueue
- */
-interface funnable {
-}
-
 class priorityQueues {
     public static void main(String[] args) {
         var pq = new PQ();
