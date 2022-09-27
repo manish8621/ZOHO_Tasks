@@ -17,34 +17,10 @@ class Forte {
         for (int i = 0; i < operators.length; i++) 
             toExpression(n,numbers,0,i,"",result);
         System.out.println(result);
-
-
-
-        //to try combinations of 2 digits
-        // ArrayList<Integer> a = new ArrayList<>();
-        // for(int number : numbers)
-        //     a.add(number);
-        //     for (int i = 0; i < numbers.length; i++) {
-        //         permutate(a,i,2);
-        //     }
-
-
-        
+  
     }
 
-    private static void permutate(ArrayList<Integer> nums,int index,int r,String permutedNum) {
-        String s ="";
-        if(index == nums.size())
-        {
-            return;
-        }
-        else
-        {
-            for (Integer num : nums) {
-                permutate(nums, index, r, permutedNum+num);
-            }
-        }
-    }
+
 
 
     //try bruteforcing permutaions of operators and numbers
@@ -104,12 +80,5 @@ class Forte {
             default:
                 return 0;
         }
-    }
-
-
-
-
-    private static boolean isValidExpression(String expression) {
-        return (expression.length()>0 && Character.isDigit(expression.charAt(expression.length()-1)));
     }
 }
