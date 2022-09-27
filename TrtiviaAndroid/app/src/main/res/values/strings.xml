@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">my name is mk6_39\nIam learning Android Development</string>
+    <string name="win">Congratulations\nYou win !</string>
+    <string name="lose">You Lose</string>
+    <string name="try_again">Try again</string>
+    <string name="monkey_thinking">Monkey thinking</string>
+    <string name="success_text">i scored %d / %d in trivia</string>
+</resources>
